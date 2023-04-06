@@ -1,0 +1,28 @@
+{
+  "name": "slidev-addon-i18n",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "slidev",
+    "slidev-addon"
+  ],
+  "engines": {
+    "slidev": ">=0.32.1"
+  },
+  "scripts": {
+    "dev": "slidev example.md",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "author": "Ruben Barros",
+  "license": "MIT",
+  "devDependencies": {
+    "@iconify/vue": "^4.1.1",
+    "@slidev/cli": "^0.40.6"
+  },
+  "dependencies": {
+    "@slidev/theme-default": "^0.21.2",
+    "vue-i18n": "^9.2.2"
+  }
+}

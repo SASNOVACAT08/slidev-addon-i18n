@@ -1,0 +1,5 @@
+node_modules/
+.vscode/
+locales/
+i18n.json
+example.md
